@@ -1,0 +1,60 @@
+    div.page {
+      height: 100%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 100vw;
+      grid-template-rows: 100px 10vh 90vh 100px;
+      grid-template-areas: 'header'
+                         'menu' 
+                         'mainContent'
+                         'footer';
+    }
+    
+
+
+    div.header {
+         background-color: rgb(17, 16, 16);
+         grid-area: header;
+         text-align: center;
+         font-size: 200%;
+         color:rgb(231, 226, 226);
+     
+    }
+    
+    h2 {
+        font-size: 250%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: 6px 7px 5px #34495e;
+    }
+
+    div.menu {
+        background-color: rgb(95, 95, 95);
+        text-align: center;
+        grid-area: menu; 
+        font-size: 130%;
+        font-family: arial;
+        padding: 0px;
+        margin: 0px;
+        background: -webkit-linear-gradient(rgb(7, 6, 6), rgb(80, 73, 73));
+        
+    }
+
+    div.mainContent {
+        padding-top: 20vh;
+        background-color: rgb(201, 195, 195);
+        grid-area: mainContent;
+        text-align-last:center;
+        color: rgb(211, 28, 28);
+        font-size: 130%;
+        font-family: arial;
+        
+        background-image: url(BlackoutFigur1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+         
+    }
+    
+
