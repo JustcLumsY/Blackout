@@ -7,6 +7,9 @@
     <title>Blackout</title>
     <link rel="Stylesheet" href="BlackoutButtons.css">
     <link rel="Stylesheet" href="Style.css">
+    <link rel="Stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="function.js"></script>
     <!-- <link rel="stylesheet" href="ghostanimation.css"> -->
     
     
@@ -14,8 +17,10 @@
 <body>
 
     <div class="page">
+      
         <div class="header"><p>The Impossible Blackout</p></div>
         <ul class="menu cf">
+          
           <li><a href="Blackout.html">Home</a></li>
           <li>
             <a href="">Gallery</a>
@@ -27,38 +32,39 @@
             </ul>     
           </li>
           <li><a href="Download.html">Download</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="Contact.html">Contact</a></li>
           <li><a href="">About</a></li>
         </ul>
-        <div class="mainContent"></div>
-        <!-- <div class="footer"></div> -->
-    </div>
-    
-    <!-- <div class="ghost">
-      <div class="face">
-        <div class="eyes">
-          <span></span><span></span>
-        </div>
-        <div class="mouth"></div>
-      </div>
-  
-      <div class="hands">
-        <span></span><span></span>
-      </div>
-  
-      <div class="feet">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div> -->
-  
- 
-    
-    
-    
         
-    
+        <div class="mainContent">
+        <div class="login-form">
+          <form>
+            <h3>Login</h3>
+            <div class="form-group">
+              <input class="logintxt" type="email" name="email" placeholder="E-mail Address">
+              <span class="input-icon"><i class="fa fa-envelope"></i></span>
+            </div>
+            
+            <div class="form-group">
+              <input class="logintxt" type="password" name="psw" placeholder="Password">
+              <span class="input-icon"><i class="fa fa-lock"></i></span>
+            </div>  
+
+            <button class="login-btn">Login</button>      
+            <a class="reset-psw" href="#">Forgot your password?</a>
+            <div class="seperator"><b>or</b></div>
+            <p>Sign in with your social media account</p>
+
+            <!-- Social login buttons -->
+            <div class="social-icon">
+              <button type="button"><i class="fa fa-twitter"></i></button>
+              <button type="button"><i class="fa fa-facebook"></i></button>
+        <!-- <div id="app"> -->
+         
+        </div>
+      </form>
+        
+    </div>
+ 
 </body>
 </html>
