@@ -2,7 +2,7 @@
  var form_id_js = "fcf-form-id";
 
  var data_js = {
-     "access_token": "1b8nvy8hbw8k4663gvbjwhob" // sent after you sign up
+     "access_token": "{1b8nvy8hbw8k4663gvbjwhob}" // sent after you sign up
  };
 
  function js_onSuccess() {
@@ -18,6 +18,7 @@
  var sendButton = document.getElementById("fcf-button");
 
  function js_send() {
+    //  alert("hey");
      sendButton.value='Sending…';
      sendButton.disabled=true;
      var request = new XMLHttpRequest();
@@ -57,10 +58,11 @@
      return form_data.join("&");
  }
 
- var js_form = document.getElementById(form_id_js);
- js_form.addEventListener("submit", function (e) {
-     e.preventDefault();
- });
+//  var js_form = document.getElementById("fcf-form-id");
+//  js_form.addEventListener("submit", function (e) {
+//      e.preventDefault();
+     
+//  });
 
 
 

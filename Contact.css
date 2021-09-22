@@ -4,14 +4,12 @@
 
 .fcf-body {
     margin: auto;
-    /* display: flex;
-    align-self: center;
-    justify-content: center; */
+   
     font-family: -apple-system, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #ffffff;
     text-align: left;
     background-color: rgb(27, 25, 25);
     padding: 30px;
@@ -46,17 +44,17 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #000000;
-    background-color: #34495e;
+    color: #ffffff;
+    background-color: #ffffff;
     background-clip: padding-box;
-    border: 1px solid #34495e;
+    border: 1px solid #ffffff;
     outline: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .fcf-form-control:focus {
-    border: 1px solid #34495e;
+    border: 1px solid #ffffff;
 }
 
 select.fcf-form-control[size], select.fcf-form-control[multiple] {
@@ -76,11 +74,11 @@ label.fcf-label {
 .fcf-credit {
     padding-top: 10px;
     font-size: 0.9rem;
-    color: #545b62;
+    color: #ffffff;
 }
 
 .fcf-credit a {
-    color: #545b62;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -92,7 +90,7 @@ label.fcf-label {
 .fcf-btn {
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: #ffffff;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -165,10 +163,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .fcf-h3 {
-    color: #34495e;
+    color: #0075eb;
     
 }
 
 .fcf-label{
-    color: #34495e;
+    color: #0075eb;
 }

@@ -1,10 +1,3 @@
-/* body {
-    padding: 0;
-    margin 0;
-} */
-
-
-
 div.page {
     height: 100%;
     width: 100%;
@@ -18,33 +11,28 @@ div.page {
                          
 }
 
-
 div.header {
     background-color: rgba(17,21,22,255);
     grid-area: header;
     text-align: center;
     color:rgb(231, 226, 226);
     font-size: 350%;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-shadow: 6px 7px 5px #34495e;
-        
-    
-    
-     
-    }
-    p {
-        font-size: 150%;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-shadow: 6px 7px 5px #34495e;
-    }
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 6px 7px 5px #34495e;
+  }
 
-    div.menu.cf {
+p {
+    font-size: 150%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 6px 7px 5px #34495e;
+  }
+
+div.menu.cf {
         background-color: rgb(95, 95, 95);
         margin: auto;
         text-align: center;
@@ -54,11 +42,10 @@ div.header {
         /* padding: 0px; */
         
         background: -webkit-linear-gradient(rgb(7, 6, 6), rgb(80, 73, 73));
-        
-    }
+      
+  }
 
-
-    div.mainContent {
+div.mainContent {
         /* margin-top: 20vh; */
         padding-top: 25vh;
         background-color: rgb(201, 195, 195);
@@ -67,20 +54,18 @@ div.header {
         color: rgb(211, 28, 28);
         font-size: 130%;
         font-family: arial;
-        
         background-image: url(BlackoutFigur1.png);
         background-repeat: no-repeat;
         background-size: cover;
          
+  }
+
+.footer {
+        background-color: black;
     }
 
-
-    .footer {
-background-color: black;
-    }
-
-    * {
-  box-sizing: border-box;
+* {
+        box-sizing: border-box;  
 }
 
 body {
@@ -92,18 +77,13 @@ body {
 .column {
   float: left;
   width: 25%;
-  padding: 0;
-  
-  
+  padding: 0;  
 }
 
 /* Style the images inside the grid */
 .column img {
   opacity: 0.9; 
-  cursor: pointer; 
-  
-  
-  
+  cursor: pointer;  
 }
 
 .column img:hover {
@@ -114,8 +94,7 @@ body {
 .row:after {
   content: "";
   display: table;
-  clear: both;
-  
+  clear: both;  
 }
 
 /* The expanding image container */
@@ -143,37 +122,77 @@ body {
   font-size: 35px;
   cursor: pointer;
 }
-    
 
  h2 {
    position:absolute;
    align-self: center;
-   margin: 30vh 0 0 2vh;
+   margin: 30vh 0 0 1vh;
    padding: top 35px;
    color: Green;
    border-style: double;
+   font-size: 200%;
  }   
 
- .btn {
-  background-color: DodgerBlue;
+ .DW {
+  background-color:#34495e;
   border: none;
   color: white;
-  padding: 12px 30px;
+  padding: 12px 34px;
   cursor: pointer;
   font-size: 20px;
   position: absolute;
-  margin: 30vh 0 0 0;
-  
-  
+  margin: -75.5vh 0 0 10px;
 }
 
 /* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
+.DW:hover {
+  background-color: royalblue;
 }
-   
-        
-        
+
+.DW .Download1:hover {
+  background-color: royalblue;
+}
+
+.DW .Download1 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 18.5px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  margin: -12px 0 0 0;
+  text-decoration: none;
+}
+
+.DW2 {
+  background-color: #34495e;
+  border: none;
+  color: white;
+  padding: 12px 34px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  margin: -723px 0 0 295px;
+  text-decoration: none;
+}
+
+.DW2:hover {
+  background-color: royalblue;
+}
+
+h1 {
+  position:absolute;
+   align-self: center;
+   margin: 30.1vh 0 0 295px;
+   padding: top 35px;
+   color: Green;
+   border-style: double;
+   font-size: 200%;
+}
+
+
+
 
   
     

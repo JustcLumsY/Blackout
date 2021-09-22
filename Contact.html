@@ -8,7 +8,7 @@
     
     <link rel="Stylesheet" href="BlackoutButtons.css">
     <link rel="Stylesheet" href="Style.css">
-    <link rel="stylesheet" href="contact-form.css">
+    <link rel="stylesheet" href="Contact.css">
     <script src="function-sendMail.js"></script>
 </head>
 <body>
@@ -22,8 +22,7 @@
               <ul class="submenu">
                 <li><a href="Pictures.html">Pictures</a></li>
                 <li><a href="">Videos</a></li>
-                <!-- <li><a href="">Submenu item</a></li>
-                <li><a href="">Submenu item</a></li> -->
+               
               </ul>     
             
             </li>
@@ -37,7 +36,7 @@
           <div id="fcf-form">
           <h3 class="fcf-h3">Contact us</h3>
         
-              
+          <!-- action="http://postmail.invotes.com/send" -->
     <form id="fcf-form-id" class="fcf-form-class" method="post">
         <input type="hidden" name="access_token" value="1b8nvy8hbw8k4663gvbjwhob" />
                     
@@ -59,28 +58,21 @@
     <div class="fcf-form-group">
         <label for="Message" class="fcf-label">Your message</label>
         <div class="fcf-input-group">
-        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
+            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
         </div>
+    </div>
         
     <div class="fcf-form-group">
         <button onclick="js_send()" type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
+    </div>
         
                 <!-- <div class="fcf-credit" id="fcf-credit"> -->          
-        </div>
+    </div>
         
     </form>
     
     <script>
-                var submitButton = document.getElementById("fcf-button");
-                var form = document.getElementById("fcf-form-id");
-                form.addEventListener("submit", function (e) {
-                    setTimeout(function() {
-                        submitButton.value = "Sending...";
-                        submitButton.disabled = true;
-                    }, 1);
-                });
+               
             </script> 
             
             </div>
