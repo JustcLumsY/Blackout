@@ -126,7 +126,7 @@ body {
  h2 {
    position:absolute;
    align-self: center;
-   margin: 30vh 0 0 1vh;
+   margin: -24vh 0 0 1vh;
    padding: top 35px;
    color: Green;
    border-style: double;
@@ -173,7 +173,7 @@ body {
   cursor: pointer;
   font-size: 20px;
   position: absolute;
-  margin: -723px 0 0 295px;
+  margin: -707px 0 0 295px;
   text-decoration: none;
 }
 
@@ -184,7 +184,7 @@ body {
 h1 {
   position:absolute;
    align-self: center;
-   margin: 30.1vh 0 0 295px;
+   margin: -23.9vh 0 0 295px;
    padding: top 35px;
    color: Green;
    border-style: double;
